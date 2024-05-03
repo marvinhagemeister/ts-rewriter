@@ -1,0 +1,12 @@
+{
+  "name": "@marvinh/ts-rewriter",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./src/mod.ts"
+  },
+  "imports": {
+    "@std/expect": "jsr:@std/expect@^0.224.0",
+    "@std/path": "jsr:@std/path@^0.224.0",
+    "typescript": "npm:typescript@^5.4.5"
+  }
+}
