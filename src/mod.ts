@@ -78,7 +78,7 @@ export function transform(
   filePath: string,
   transformers: Transformer[],
   compilerOptions: ts.CompilerOptions = {},
-) {
+): string {
   const result = transformFiles(
     [{ content: code, filePath }],
     transformers,
